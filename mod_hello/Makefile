@@ -7,6 +7,6 @@ all:
 	$(MAKE) -C $(KERN_DIR) M=$(PWD) modules
 
 clean:
-	rm -f *.o *.ko *.mod.* *.cmd *~
+	rm -f *.o *.ko *.mod.* .*.cmd *~
 	rm -rf modules.order Module.symvers .tmp_versions
 
